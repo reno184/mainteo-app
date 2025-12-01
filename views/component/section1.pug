@@ -1,0 +1,15 @@
+
+.d-none.d-md-block.col-md-6
+
+.col-12.col-md-6
+    .test
+        svg( viewBox="0 0 700 900" xmlns="http://www.w3.org/2000/svg")
+            defs
+                linearGradient(id="Gradient")
+                    stop(offset="0" stop-color="black")
+                    stop(offset="1" stop-color="white")
+                mask(id="Mask")
+                    rect(x="0" y="0" width="100%" height="100%"  fill="url(#Gradient)")
+            image(width="100%" height="100%" xlink:href="img/img.png" preserveAspectRatio="xMidYMid slice" xmlns:xlink="http://www.w3.org/1999/xlink")
+            rect(width="100%" height="100%"  fill="#b6916d" mask="url(#Mask)")
+

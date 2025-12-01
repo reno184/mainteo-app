@@ -1,0 +1,38 @@
+{
+  "name": "MainteoIo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js",
+    "start": "webpack serve --mode=development",
+    "compile": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "express": "^5.1.0",
+    "greensock": "^1.20.2",
+    "gsap": "^3.13.0",
+    "i18n": "^0.15.1",
+    "pug": "^3.0.3",
+    "reset-css": "^5.0.2",
+    "serve-favicon": "^2.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "barba.js": "^1.0.0",
+    "css-loader": "^7.1.2",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ]
+}
